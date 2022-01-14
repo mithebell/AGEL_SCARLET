@@ -1,3 +1,4 @@
+
 """
 Created on Tue Jan  4 20:29:00 2022
 
@@ -7,7 +8,7 @@ Purpose:
     To convert RA and DEC into degrees
 """
 
-#import
+#import math library
 import math
 
 #input RA and DEC
@@ -18,11 +19,6 @@ dec = input('Enter DEC value in the form D M S or degree: ')
 
 if bool(ra) == False or bool(dec) == False:
     print('Please enter both RA and DEC values!')
-    
-    
-# if all(x.isalpha() or x.isspace() for x in ra) == False or \
-# all(x.isalpha() or x.isspace() for x in dec) == False:
-#     print('Please only use numbers and spaces!')
     
     
 else:
@@ -120,4 +116,3 @@ else:
         
 
     print ('RA = ' + str(RA), 'DEC = ' + str(DEC))
-
